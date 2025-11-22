@@ -1,0 +1,9 @@
+nav a {
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+nav {
+  position: fixed; /* or some parent div */
+  z-index: 0;      /* or low z-index */
+}

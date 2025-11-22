@@ -1,0 +1,20 @@
+.muscle-card {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      border-radius: 8px;
+      width: calc( 100% - 34px );
+      display: block;
+      text-align: center;
+    }
+.muscle-group-icon{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+
+.excerise-stat{
+    width: 50%;
+    margin: 5px;
+    display: inline-block;
+    max-width: 110px;
+}

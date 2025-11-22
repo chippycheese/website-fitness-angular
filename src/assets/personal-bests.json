@@ -1,0 +1,42 @@
+[
+    {
+        "Title": "Hammer Curls",
+        "MuscleGroup": "Arms (Upper Arm)",
+        "Type": "Strength",
+        "Stat1 Number": 20,
+        "Stat Measure": "lb",
+        "Stat2 Number": 20
+    },
+    {
+        "Title": "Push Ups",
+        "MuscleGroup": "Arms (Upper Arm)",
+        "Type": "Strength",
+        "Stat1 Number": 20,
+        "Stat Measure": "lb",
+        "Stat2 Number": 20
+    },
+    {
+        "Title": "Dumbbell Bench Press",
+        "MuscleGroup": "Torso (Chest)",
+        "Type": "Strength",
+        "Stat1 Number": 55,
+        "Stat Measure": "lb",
+        "Stat2 Number": 16
+    },
+    {
+        "Title": "Running",
+        "MuscleGroup": "Cardio",
+        "Type": "Speed",
+        "Stat1 Number": 1,
+        "Stat Measure": "mi",
+        "Stat2 Number": 435
+    },
+    {
+        "Title": "Rowing",
+        "MuscleGroup": "Cardio",
+        "Type": "Speed",
+        "Stat1 Number": 7400,
+        "Stat Measure": "m",
+        "Stat2 Number": 1800
+    }
+]
