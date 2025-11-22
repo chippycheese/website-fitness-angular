@@ -1,0 +1,78 @@
+{
+  "Torso (Abdominals)": [
+    "Rectus Abdominis",
+    "External Oblique",
+    "Internal Oblique",
+    "Transversus Abdominis"
+  ],
+  "Torso (Chest)": [
+    "Pectoralis Major",
+    "Pectoralis Minor"
+  ],
+  "Back (Upper)": [
+    "Trapezius Upper",
+    "Rhomboid Major",
+    "Rhomboid Minor"
+  ],
+  "Back (Mid)": [
+    "Latissimus Dorsi",
+    "Trapezius Middle",
+    "Trapezius Lower"
+  ],
+  "Back (Lower)": [
+    "Erector Spinae Thoracolumbar Region",
+    "Iliocostalis",
+    "Longissimus",
+    "Spinalis"
+  ],
+  "Back (Rotator Cuff)": [
+    "Supraspinatus",
+    "Infraspinatus",
+    "Teres Minor",
+    "Subscapularis"
+  ],
+  "Arms (Shoulder)": [
+    "Anterior Deltoid",
+    "Lateral Deltoid",
+    "Posterior Deltoid",
+    "Teres Major"
+  ],
+  "Arms (Upper Arm)": [
+    "Biceps Brachii",
+    "Triceps Brachii",
+    "Brachialis",
+    "Coracobrachialis"
+  ],
+  "Arms (Forearm)": [
+    "Flexor Digitorum Profundus",
+    "Flexor Digitorum Superficialis",
+    "Extensor Digitorum"
+  ],
+  "Legs (Thighs - Quadriceps)": [
+    "Rectus Femoris",
+    "Vastus Intermedius",
+    "Vastus Lateralis",
+    "Vastus Medialis"
+  ],
+  "Legs (Thighs - Hamstrings)": [
+    "Biceps Femoris",
+    "Semimembranosus",
+    "Semitendinosus"
+  ],
+  "Legs (Glutes)": [
+    "Gluteus Maximus",
+    "Gluteus Medius",
+    "Gluteus Minimus"
+  ],
+  "Legs (Calf)": [
+    "Gastrocnemius",
+    "Soleus"
+  ],
+  "Legs (Shins)": [
+    "Tibialis Anterior"
+  ],
+  "Torso (Neck)": [
+    "Sternocleidomastoid",
+    "Scalenes"
+  ]
+}

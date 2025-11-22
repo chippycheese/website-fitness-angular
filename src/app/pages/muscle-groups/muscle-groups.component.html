@@ -1,0 +1,16 @@
+<table style="width:100%; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px;">Muscle Group</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Muscles</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let group of data | keyvalue">
+      <td style="border: 1px solid #ddd; padding: 8px;">{{ group.key }}</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">
+        {{ group.value.join(', ') }}
+      </td>
+    </tr>
+  </tbody>
+</table>
