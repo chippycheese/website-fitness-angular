@@ -1,6 +1,6 @@
-<p>dashboard works!</p>
-
-<dashboard-muscle-group-card
-    [title]="'Back'"
-    [muscleCount]="8">
-</dashboard-muscle-group-card>
+<div class="dashboard">
+  <dashboard-muscle-group-card
+    *ngFor="let group of grouped | keyvalue"
+    [group]="group">
+  </dashboard-muscle-group-card>
+</div>

@@ -1,42 +1,42 @@
 [
     {
-        "Title": "Hammer Curls",
-        "MuscleGroup": "Arms (Upper Arm)",
-        "Type": "Strength",
-        "Stat1 Number": 20,
-        "Stat Measure": "lb",
-        "Stat2 Number": 20
+        "title": "Hammer Curls",
+        "muscleGroup": "Arms (Upper Arm)",
+        "type": "Strength",
+        "stat1Number": 20,
+        "statMeasure": "lb",
+        "stat2Number": 20
     },
     {
-        "Title": "Push Ups",
-        "MuscleGroup": "Arms (Upper Arm)",
-        "Type": "Strength",
-        "Stat1 Number": 20,
-        "Stat Measure": "lb",
-        "Stat2 Number": 20
+        "title": "Push Ups",
+        "muscleGroup": "Arms (Upper Arm)",
+        "type": "Strength",
+        "stat1Number": 20,
+        "statMeasure": "lb",
+        "stat2Number": 20
     },
     {
-        "Title": "Dumbbell Bench Press",
-        "MuscleGroup": "Torso (Chest)",
-        "Type": "Strength",
-        "Stat1 Number": 55,
-        "Stat Measure": "lb",
-        "Stat2 Number": 16
+        "title": "Dumbbell Bench Press",
+        "muscleGroup": "Torso (Chest)",
+        "type": "Strength",
+        "stat1Number": 55,
+        "statMeasure": "lb",
+        "stat2Number": 16
     },
     {
-        "Title": "Running",
-        "MuscleGroup": "Cardio",
-        "Type": "Speed",
-        "Stat1 Number": 1,
-        "Stat Measure": "mi",
-        "Stat2 Number": 435
+        "title": "Running",
+        "muscleGroup": "Cardio",
+        "type": "Speed",
+        "stat1Number": 1,
+        "statMeasure": "mi",
+        "stat2Number": 435
     },
     {
-        "Title": "Rowing",
-        "MuscleGroup": "Cardio",
-        "Type": "Speed",
-        "Stat1 Number": 7400,
-        "Stat Measure": "m",
-        "Stat2 Number": 1800
+        "title": "Rowing",
+        "muscleGroup": "Cardio",
+        "type": "Speed",
+        "stat1Number": 7400,
+        "statMeasure": "m",
+        "stat2Number": 1800
     }
 ]

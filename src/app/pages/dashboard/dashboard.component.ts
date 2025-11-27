@@ -1,24 +1,31 @@
-// src/app/pages/dashboard/dashboard.component.ts
 import { Component } from '@angular/core';
+import { KeyValuePipe, NgFor } from '@angular/common';
 import { DashboardMuscleGroupCardComponent } from '../../dashboard-muscle-group-card/dashboard-muscle-group-card.component';
+import personalBestData from '../../../assets/personal-bests.json';
+import { PersonalBestExercise } from '../../../models/personal-best-exercise';
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [DashboardMuscleGroupCardComponent],
-  template: `
-    <div class="dashboard">
-      <dashboard-muscle-group-card title="Chest" [muscleCount]="12"></dashboard-muscle-group-card>
-      <dashboard-muscle-group-card title="Back" [muscleCount]="8"></dashboard-muscle-group-card>
-      <dashboard-muscle-group-card title="Legs" [muscleCount]="10"></dashboard-muscle-group-card>
-    </div>
-  `,
-  styles: [`
-    .dashboard {
-      display: block;
-      gap: 1rem;
-      flex-wrap: wrap;
-    }
-  `]
+  imports: [DashboardMuscleGroupCardComponent, NgFor, KeyValuePipe], 
+  templateUrl: './dashboard.component.html',
 })
-export class DashboardComponent {}
+export class DashboardComponent {
+
+  grouped: { [key: string]: PersonalBestExercise[] } = {};
+
+  constructor() {
+    this.groupExercises();
+  }
+
+  groupExercises() {
+    const list = personalBestData as PersonalBestExercise[];
+
+    for (const ex of list) {
+      if (!this.grouped[ex.muscleGroup]) {
+        this.grouped[ex.muscleGroup] = [];
+      }
+      this.grouped[ex.muscleGroup].push(ex);
+    }
+  }
+}

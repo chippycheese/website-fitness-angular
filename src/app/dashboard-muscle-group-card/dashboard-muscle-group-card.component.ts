@@ -1,17 +1,15 @@
-// src/app/dashboard-muscle-group-card/dashboard-muscle-group-card.component.ts
 import { Component, Input } from '@angular/core';
+import { NgFor, NgIf, DecimalPipe } from '@angular/common';
+import { PersonalBestExercise } from '../../models/personal-best-exercise';
+import { SecondsToHHMMSSPipe } from '../pipes/seconds-to-hhmmss.pipe';
 
 @Component({
   selector: 'dashboard-muscle-group-card',
   standalone: true,
+  imports: [NgFor, NgIf, DecimalPipe, SecondsToHHMMSSPipe],
   templateUrl: './dashboard-muscle-group-card.component.html',
-  // template: ,
   styleUrls: ['./dashboard-muscle-group-card.component.scss']
-  // styles: [`
-    
-  // `]
 })
 export class DashboardMuscleGroupCardComponent {
-  @Input() title!: string;
-  @Input() muscleCount!: number;
+  @Input() group!: { key: string; value: PersonalBestExercise[] };
 }
