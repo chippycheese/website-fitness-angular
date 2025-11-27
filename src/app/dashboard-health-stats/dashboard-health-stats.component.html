@@ -1,0 +1,13 @@
+<div style="margin: 10px 0; overflow: hidden; height: 160px;" class="muscle-card">
+    <div><strong>Gender: </strong>
+        <span *ngIf="data.gender === true">
+            Male
+        </span>
+    </div>
+
+    <div>Height: {{ heightFeet }} FT {{ remainingInches }} In</div>
+    <div>Weight: {{ data.weight }} lb</div>
+
+    <div>Resting Heart Rate: {{ data.heartRate }}</div>
+    <div>Body Fat Percent: {{ data.bodyFatPercent }}%</div>
+</div>
